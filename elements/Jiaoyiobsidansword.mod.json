@@ -1,0 +1,33 @@
+{
+  "_fv": 60,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "TOOLSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Blocks.OBSIDIAN"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:ObsidianSword"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 50,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

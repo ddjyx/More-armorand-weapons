@@ -1,0 +1,112 @@
+{
+  "mod_elements": [
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/obsidian_sword.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/ObsidianSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/emerald_sword.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/EmeraldSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hechengemeraldsword",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hechengemeraldsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/hechengemeraldsword.json"
+        ]
+      }
+    },
+    {
+      "name": "Hechengobsidiansword",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hechengobsidiansword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/hechengobsidiansword.json"
+        ]
+      }
+    },
+    {
+      "name": "Jiaoyiemeraldsword",
+      "type": "villagertrade",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiaoyiemeraldsword",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Jiaoyiobsidansword",
+      "type": "villagertrade",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiaoyiobsidansword",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.morearmorandweapons.obsidian_sword": "Obsidian Sword",
+      "item.morearmorandweapons.emerald_sword": "Emerald Sword"
+    },
+    "zh_cn": {
+      "item.morearmorandweapons.obsidian_sword": "黑曜石剑",
+      "item.morearmorandweapons.emerald_sword": "绿宝石剑"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "morearmorandweapons",
+    "modName": "更多的防具和武器",
+    "version": "1.0.1",
+    "author": "ddjyx",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "ddjyx.morearmorandweapons"
+  },
+  "mcreatorVersion": 202400118518
+}
