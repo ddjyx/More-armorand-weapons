@@ -18,4 +18,4 @@
 下载mod
 
 modrinth；https://modrinth.com/mod/more-armor-and-weapons
-或者是：https://u-p.vip/s/lLMf5
+或者是：https://u-p.vip/s/m6GuK
