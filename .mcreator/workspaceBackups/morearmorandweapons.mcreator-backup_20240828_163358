@@ -64,6 +64,17 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Jiaoyiobsidansword",
+      "type": "villagertrade",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiaoyiobsidansword",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -86,9 +97,8 @@
   "workspaceSettings": {
     "modid": "morearmorandweapons",
     "modName": "更多的防具和武器",
-    "version": "1.0.0",
-    "author": "huawei, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "1.0.1",
+    "author": "ddjyx",
     "license": "Not specified",
     "serverSideOnly": false,
     "requiredMods": [],

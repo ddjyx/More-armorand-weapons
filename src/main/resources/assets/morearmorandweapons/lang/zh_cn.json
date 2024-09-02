@@ -1,4 +1,16 @@
 {
   "item.morearmorandweapons.obsidian_sword": "黑曜石剑",
-  "item.morearmorandweapons.emerald_sword": "绿宝石剑"
+  "item.morearmorandweapons.eemerald_armor_helmet": "绿宝石头盔",
+  "item.morearmorandweapons.emerald_sword": "绿宝石剑",
+  "item.morearmorandweapons.emeraldtools_axe": "绿宝石斧头",
+  "item.morearmorandweapons.eemerald_armor_leggings": "绿宝石护腿",
+  "item.morearmorandweapons.emeraldtools_pickaxe": "绿宝石稿",
+  "item.morearmorandweapons.eemerald_armor_chestplate": "绿宝石胸甲",
+  "item.morearmorandweapons.obsidian_armor_leggings": "黑曜石护腿",
+  "item.morearmorandweapons.eemerald_armor_boots": "绿宝石靴子",
+  "item.morearmorandweapons.emeraldtools_shovel": "绿宝石铲子",
+  "item.morearmorandweapons.obsidian_armor_chestplate": "黑曜石胸甲",
+  "item.morearmorandweapons.obsidian_armor_boots": "黑曜石靴子",
+  "item.morearmorandweapons.obsidian_armor_helmet": "黑曜石头盔",
+  "item.morearmorandweapons.emeraldtools_hoe": "绿宝石锄头"
 }

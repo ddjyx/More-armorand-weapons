@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "morearmorandweapons:eemerald_armor_boots",
+    "count": 1
+  }
+}

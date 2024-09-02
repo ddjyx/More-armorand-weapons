@@ -4,11 +4,11 @@ license="Not specified"
 
 [[mods]]
 modId="morearmorandweapons"
-version="1.0.0"
+version="1.1.0"
 displayName="更多的防具和武器"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="huawei, MCreator"
+authors="ddjyx"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

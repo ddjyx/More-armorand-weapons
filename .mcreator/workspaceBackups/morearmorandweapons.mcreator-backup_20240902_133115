@@ -1,0 +1,382 @@
+{
+  "mod_elements": [
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/obsidian_sword.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/ObsidianSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/emerald_sword.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/EmeraldSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hechengemeraldsword",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hechengemeraldsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/hechengemeraldsword.json"
+        ]
+      }
+    },
+    {
+      "name": "Hechengobsidiansword",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hechengobsidiansword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/hechengobsidiansword.json"
+        ]
+      }
+    },
+    {
+      "name": "Jiaoyiemeraldsword",
+      "type": "villagertrade",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiaoyiemeraldsword",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Jiaoyiobsidansword",
+      "type": "villagertrade",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiaoyiobsidansword",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ObsidianArmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/obsidian_armor_boots.json",
+          "src/main/resources/assets/morearmorandweapons/models/item/obsidian_armor_chestplate.json",
+          "src/main/resources/assets/morearmorandweapons/models/item/obsidian_armor_leggings.json",
+          "src/main/resources/assets/morearmorandweapons/models/item/obsidian_armor_helmet.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/ObsidianArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/obsidian_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/obsidian_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/obsidian_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/obsidian_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EemeraldArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eemerald_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/ddjyx/morearmorandweapons/item/EemeraldArmorItem.java",
+          "src/main/resources/assets/morearmorandweapons/models/item/eemerald_armor_helmet.json",
+          "src/main/resources/assets/morearmorandweapons/models/item/eemerald_armor_boots.json",
+          "src/main/resources/assets/morearmorandweapons/models/item/eemerald_armor_chestplate.json",
+          "src/main/resources/assets/morearmorandweapons/models/item/eemerald_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "EemeraldArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eemerald_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/eemerald_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EemeraldArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eemerald_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/eemerald_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EemeraldArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eemerald_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/eemerald_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EemeraldArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eemerald_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/eemerald_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsPickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/emeraldtools_pickaxe.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/emeraldtools_axe.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem.java",
+          "src/main/resources/assets/morearmorandweapons/models/item/emeraldtools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/morearmorandweapons/models/item/emeraldtools_hoe.json",
+          "src/main/java/ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/emeraldtools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/emeraldtools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/emeraldtools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldtoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldtools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/morearmorandweapons/recipes/emeraldtools_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.morearmorandweapons.obsidian_sword": "Obsidian Sword",
+      "item.morearmorandweapons.eemerald_armor_helmet": "Eemerald Helmet",
+      "item.morearmorandweapons.emerald_sword": "Emerald Sword",
+      "item.morearmorandweapons.emeraldtools_axe": "Emeraldtools Axe",
+      "item.morearmorandweapons.eemerald_armor_leggings": "Eemerald Leggings",
+      "item.morearmorandweapons.emeraldtools_pickaxe": "Emeraldtools Pickaxe",
+      "item.morearmorandweapons.eemerald_armor_chestplate": "Eemerald Chestplate",
+      "item.morearmorandweapons.obsidian_armor_leggings": "Obsidian Leggings",
+      "item.morearmorandweapons.eemerald_armor_boots": "Eemerald Boots",
+      "item.morearmorandweapons.emeraldtools_shovel": "Emeraldtools Shovel",
+      "item.morearmorandweapons.obsidian_armor_chestplate": "Obsidian Chestplate",
+      "item.morearmorandweapons.obsidian_armor_boots": "Obsidian Boots",
+      "item.morearmorandweapons.obsidian_armor_helmet": "Obsidian Helmet",
+      "item.morearmorandweapons.emeraldtools_hoe": "Emeraldtools Hoe"
+    },
+    "zh_cn": {
+      "item.morearmorandweapons.obsidian_sword": "黑曜石剑",
+      "item.morearmorandweapons.eemerald_armor_helmet": "绿宝石头盔",
+      "item.morearmorandweapons.emerald_sword": "绿宝石剑",
+      "item.morearmorandweapons.emeraldtools_axe": "绿宝石斧头",
+      "item.morearmorandweapons.eemerald_armor_leggings": "绿宝石护腿",
+      "item.morearmorandweapons.emeraldtools_pickaxe": "绿宝石稿",
+      "item.morearmorandweapons.eemerald_armor_chestplate": "绿宝石胸甲",
+      "item.morearmorandweapons.obsidian_armor_leggings": "黑曜石护腿",
+      "item.morearmorandweapons.eemerald_armor_boots": "绿宝石靴子",
+      "item.morearmorandweapons.emeraldtools_shovel": "绿宝石铲子",
+      "item.morearmorandweapons.obsidian_armor_chestplate": "黑曜石胸甲",
+      "item.morearmorandweapons.obsidian_armor_boots": "黑曜石靴子",
+      "item.morearmorandweapons.obsidian_armor_helmet": "黑曜石头盔",
+      "item.morearmorandweapons.emeraldtools_hoe": "绿宝石锄头"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "morearmorandweapons",
+    "modName": "更多的防具和武器",
+    "version": "1.0.1",
+    "author": "ddjyx",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "ddjyx.morearmorandweapons"
+  },
+  "mcreatorVersion": 202400118518
+}

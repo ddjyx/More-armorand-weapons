@@ -134,22 +134,62 @@ Adding Libraries to Inheritance
 Reading Input: D:\steam\Morearmorandweapons\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EemeraldArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
 Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
-Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldSwordItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for ddjyx/morearmorandweapons/item/ObsidianSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Adding extras
 Sorting
 Writing Output: D:\steam\Morearmorandweapons\build\reobfJar\output.jar
@@ -163,7 +203,19 @@ Writing Output: D:\steam\Morearmorandweapons\build\reobfJar\output.jar
   assets/morearmorandweapons/lang/zh_cn.json
   assets/morearmorandweapons/models/
   assets/morearmorandweapons/models/item/
+  assets/morearmorandweapons/models/item/eemerald_armor_boots.json
+  assets/morearmorandweapons/models/item/eemerald_armor_chestplate.json
+  assets/morearmorandweapons/models/item/eemerald_armor_helmet.json
+  assets/morearmorandweapons/models/item/eemerald_armor_leggings.json
   assets/morearmorandweapons/models/item/emerald_sword.json
+  assets/morearmorandweapons/models/item/emeraldtools_axe.json
+  assets/morearmorandweapons/models/item/emeraldtools_hoe.json
+  assets/morearmorandweapons/models/item/emeraldtools_pickaxe.json
+  assets/morearmorandweapons/models/item/emeraldtools_shovel.json
+  assets/morearmorandweapons/models/item/obsidian_armor_boots.json
+  assets/morearmorandweapons/models/item/obsidian_armor_chestplate.json
+  assets/morearmorandweapons/models/item/obsidian_armor_helmet.json
+  assets/morearmorandweapons/models/item/obsidian_armor_leggings.json
   assets/morearmorandweapons/models/item/obsidian_sword.json
   assets/morearmorandweapons/textures/
   assets/morearmorandweapons/textures/block/
@@ -173,17 +225,48 @@ Writing Output: D:\steam\Morearmorandweapons\build\reobfJar\output.jar
   assets/morearmorandweapons/textures/item/
   assets/morearmorandweapons/textures/item/chestplate_chestplate.png
   assets/morearmorandweapons/textures/item/chestplate_chestplate_i.png
+  assets/morearmorandweapons/textures/item/eemerald_body.png
+  assets/morearmorandweapons/textures/item/eemerald_boots.png
+  assets/morearmorandweapons/textures/item/eemerald_head.png
+  assets/morearmorandweapons/textures/item/eemerald_leggings.png
   assets/morearmorandweapons/textures/item/emeraldboots.png
   assets/morearmorandweapons/textures/item/emeraldhelmet.png
   assets/morearmorandweapons/textures/item/emeraldleggings.png
   assets/morearmorandweapons/textures/item/emeraldsword.png
+  assets/morearmorandweapons/textures/item/emeraldtools_axe.png
+  assets/morearmorandweapons/textures/item/emeraldtools_hoe.png
+  assets/morearmorandweapons/textures/item/emeraldtools_pickaxe.png
+  assets/morearmorandweapons/textures/item/emeraldtools_shovel.png
+  assets/morearmorandweapons/textures/item/emeraldtools_sword.png
   assets/morearmorandweapons/textures/item/iron_chestplate_i.png
+  assets/morearmorandweapons/textures/item/obsidian_body.png
+  assets/morearmorandweapons/textures/item/obsidian_boots.png
+  assets/morearmorandweapons/textures/item/obsidian_head.png
+  assets/morearmorandweapons/textures/item/obsidian_leggings.png
   assets/morearmorandweapons/textures/item/obsidianoword.png
+  assets/morearmorandweapons/textures/models/
+  assets/morearmorandweapons/textures/models/armor/
+  assets/morearmorandweapons/textures/models/armor/eemerald_layer_1.png
+  assets/morearmorandweapons/textures/models/armor/eemerald_layer_2.png
+  assets/morearmorandweapons/textures/models/armor/obsidian_layer_1.png
+  assets/morearmorandweapons/textures/models/armor/obsidian_layer_2.png
   data/
   data/morearmorandweapons/
   data/morearmorandweapons/recipes/
+  data/morearmorandweapons/recipes/eemerald_armor_boots_recipe.json
+  data/morearmorandweapons/recipes/eemerald_armor_chestplate_recipe.json
+  data/morearmorandweapons/recipes/eemerald_armor_helmet_recipe.json
+  data/morearmorandweapons/recipes/eemerald_armor_leggings_recipe.json
+  data/morearmorandweapons/recipes/emeraldtools_axe_recipe.json
+  data/morearmorandweapons/recipes/emeraldtools_hoe_recipe.json
+  data/morearmorandweapons/recipes/emeraldtools_pickaxe_recipe.json
+  data/morearmorandweapons/recipes/emeraldtools_shovel_recipe.json
   data/morearmorandweapons/recipes/hechengemeraldsword.json
   data/morearmorandweapons/recipes/hechengobsidiansword.json
+  data/morearmorandweapons/recipes/obsidian_armor_boots_recipe.json
+  data/morearmorandweapons/recipes/obsidian_armor_chestplate_recipe.json
+  data/morearmorandweapons/recipes/obsidian_armor_helmet_recipe.json
+  data/morearmorandweapons/recipes/obsidian_armor_leggings_recipe.json
   ddjyx/
   ddjyx/morearmorandweapons/
   ddjyx/morearmorandweapons/MorearmorandweaponsMod.class
@@ -192,8 +275,28 @@ Writing Output: D:\steam\Morearmorandweapons\build\reobfJar\output.jar
   ddjyx/morearmorandweapons/init/MorearmorandweaponsModTabs.class
   ddjyx/morearmorandweapons/init/MorearmorandweaponsModTrades.class
   ddjyx/morearmorandweapons/item/
+  ddjyx/morearmorandweapons/item/EemeraldArmorItem$1.class
+  ddjyx/morearmorandweapons/item/EemeraldArmorItem$Boots.class
+  ddjyx/morearmorandweapons/item/EemeraldArmorItem$Chestplate.class
+  ddjyx/morearmorandweapons/item/EemeraldArmorItem$Helmet.class
+  ddjyx/morearmorandweapons/item/EemeraldArmorItem$Leggings.class
+  ddjyx/morearmorandweapons/item/EemeraldArmorItem.class
   ddjyx/morearmorandweapons/item/EmeraldSwordItem$1.class
   ddjyx/morearmorandweapons/item/EmeraldSwordItem.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem$1.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsAxeItem.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem$1.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsHoeItem.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem$1.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsPickaxeItem.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem$1.class
+  ddjyx/morearmorandweapons/item/EmeraldtoolsShovelItem.class
+  ddjyx/morearmorandweapons/item/ObsidianArmorItem$1.class
+  ddjyx/morearmorandweapons/item/ObsidianArmorItem$Boots.class
+  ddjyx/morearmorandweapons/item/ObsidianArmorItem$Chestplate.class
+  ddjyx/morearmorandweapons/item/ObsidianArmorItem$Helmet.class
+  ddjyx/morearmorandweapons/item/ObsidianArmorItem$Leggings.class
+  ddjyx/morearmorandweapons/item/ObsidianArmorItem.class
   ddjyx/morearmorandweapons/item/ObsidianSwordItem$1.class
   ddjyx/morearmorandweapons/item/ObsidianSwordItem.class
   pack.mcmeta
